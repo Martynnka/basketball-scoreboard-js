@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <p id = "HomeScore"> 0 </p>
+                <div class ="containerbuttonh">
+                <button id = "Add1HomeScore" onclick="add1home()"> +1 </button>
+                <button id = "Add2HomeScore" onclick="add2home()"> +2 </button>
+                <button id = "Add3HomeScore" onclick="add3home()"> +3 </button>
+                <button id = "Sub1HomeScore" onclick="sub1home()"> -1 </button>
+                </div>
+            </div>
+
+            
+            <div class = "StartButton">
+                <h1>PERIOD</h1>
+                <p id = "Period"> 1 </p>
+                <p id = "Time"> 10:00 </p>
+                <button onclick="startTimer()">START</button>
+                <button onclick="stopTimer()">STOP</button>
+                <button onclick="resetTimer()">RESET</button>
+            </div>
+
+
+
+
+            <div>
+                <h1>GUEST</h1>
+                <p id = "GuestScore"> 0 </p>
+                <div class ="containerbuttong">
+                <button id = "Add1GuestScore" onclick="add1guest()"> +1 </button>
+                <button id = "Add2GuestScore" onclick="add2guest()"> +2 </button>
+                <button id = "Add3GuestScore" onclick="add3guest()"> +3 </button>
+                <button id = "Sub1GuestScore" onclick="sub1guest()"> -1 </button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
