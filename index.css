@@ -1,16 +1,30 @@
 body {
     margin: 0;
+    background-color: #A6F26A;
+}
+header
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #8EE054;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    color: #111111;
+    text-shadow: 0 0 6px rgba(0,0,0,0.4);
 }
 
 .container p
 {
     font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #0B0B0B;
+    text-shadow: 0 0 6px rgba(0,0,0,0.4);
     font-size: 52px;
 }
 
